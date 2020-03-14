@@ -1,5 +1,5 @@
 header {
-  background: url(../images/city1) center / cover;
+  background-image: url("images.city1.jpg") center / cover;
   height: 60vh;
   justify-content: center;
   text-align: center;

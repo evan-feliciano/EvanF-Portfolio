@@ -12,7 +12,7 @@ h1 {
 }
 .slogan {
   color: hsla(0, 0%, 100%, 0.7);
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 1.6rem;
 }
 body {
@@ -36,5 +36,11 @@ main {
  }
  footer.mdl-mini-footer > ul {
   margin: auto;
-  font-size: 10rem;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+  display: flex;
+  }
 }

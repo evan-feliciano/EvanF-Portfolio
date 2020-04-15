@@ -1,0 +1,70 @@
+body {
+ background-image: url("../Images/mobile-background.svg");
+ background-repeat: no-repeat;
+ font-family: montserrat, work-sans, varela-round;
+ background-size: 80%, 80%;
+ font-size: 1.6rem;
+ font-weight: 300;
+ line-height: 3.5rem;
+}
+
+.containter {
+  display: grid;
+  grid-template-columns: 8%, 84%, 8%;
+  grid-template-areas: "header header header" "hero hero hero" "project1 project1 project1" "project2 project2 project2" "project3 project3 project3" "footer footer footer";
+}
+
+
+header {
+  justify-content: center;
+  grid-area: header;
+  margin: 3rem;
+}
+
+.hero {
+  grid-area: hero;
+  font-size: 1.2rem;
+  text-align: left;
+  margin: 50px;
+}
+
+.ef-logo {
+  vertical-align: middle;
+  max-height: 250px;
+  padding-left: 20px;
+  padding-top: 20px;
+  object-fit: contain;
+}
+
+.hamburger-icon {
+  width: 50px;
+  height: auto;
+  padding-left: 500px;
+  padding-bottom: 100px;
+  position: relative;
+  margin: 10px auto;
+}
+
+.project1 h2 {
+  font-size: 2.8rem;
+  color: #EEF3FE;
+}
+
+.project1 p {
+  font-size: 1.6rem;
+  font-weight: normal;
+  color: #EEF3FE;
+}
+
+.project h2 {
+  font-size: 1.6rem;
+
+}
+
+footer {
+  grid-area: footer;
+  font-size: 2rem;
+  font-family: montserrat;
+  text-align: center;
+
+}
